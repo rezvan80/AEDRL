@@ -1,0 +1,30 @@
+_target_: rl4co.envs.EVRPEnv
+name: evrp
+
+data_dir: ${paths.root_dir}/data/evrp
+val_file: set1/E-n101-k8.evrp
+test_file: set2/E-n29-k4-s7.evrp 
+#set2/E-n29-k4-s7.evrp                           rand10000/evrp_10_4_rand_seed4321.npz
+#set2/E-n30-k3-s7.evrp                           rand10000/evrp_20_4_rand_seed4321.npz
+#set2/E-n35-k3-s5.evrp                           rand/evrp_50_9_rand_seed4321.npz
+#set2/E-n37-k4-s4.evrp                           rand/evrp_100_8_rand_seed4321.npz
+#set2/E-n60-k5-s9.evrp                           #set1/E-n22-k4.evrp
+#set2/E-n89-k7-s13.evrp                          #set1/E-n23-k3.evrp
+#set2/E-n112-k8-s11.evrp                         #set1/E-n30-k3.evrp
+#set2/F-n49-k4-s4.evrp                           #set1/E-n33-k4.evrp
+#set2/F-n80-k4-s8.evrp                           #set1/E-n51-k5.evrp
+#set2/F-n140-k5-s5.evrp                          #set1/E-n76-k7.evrp
+#set2/M-n110-k10-s9.evrp                         #set1/E-n101-k8.evrp
+#set2/M-n126-k7-s5.evrp                          #set1/X-n143-k7.evrp
+#set2/M-n163-k12-s12.evrp                        #set1/X-n214-k11.evrp
+#set2/M-n212-k16-s12.evrp                        #set1/X-n351-k40.evrp
+#set2/X-n147-k7-s4.evrp                          #set1/X-n459-k26.evrp
+#set2/X-n221-k11-s7.evrp                         #set1/X-n573-k30.evrp
+#set2/X-n360-k40-s9.evrp                         #set1/X-n685-k75.evrp
+#set2/X-n469-k26-s10.evrp                        #set1/X-n749-k98.evrp
+#set2/X-n577-k30-s4.evrp                         #set1/X-n819-k171.evrp
+#set2/X-n698-k75-s13.evrp                        #set1/X-n916-k207.evrp
+#set2/X-n759-k98-s10.evrp                        #set1/X-n1001-k43.evrp
+#set2/X-n830-k171-s11.evrp
+#set2/X-n920-k207-s4.evrp
+#set2/X-n1006-k43-s5.evrp
