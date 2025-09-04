@@ -29,7 +29,7 @@ defaults:
 
 # task name, determines output directory path
 # mode: "train"
-mode: "test"
+mode: "train"
 
 # tags to help you identify your experiments
 # you can overwrite this in experiment configs
