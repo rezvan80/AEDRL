@@ -8,11 +8,13 @@ import torch
 from lightning import Callback, LightningModule
 from lightning.pytorch.loggers import Logger
 from omegaconf import DictConfig
-
+import sys, os
 from rl4co import utils
 from rl4co.utils import RL4COTrainer
+sys.path.insert(0, "/content/AEDRL")
+os.environ.setdefault("PROJECT_ROOT", "/content/AEDRL")
 
-pyrootutils.setup_root(__file__, indicator=".gitignore", pythonpath=True)
+#pyrootutils.setup_root(__file__, indicator=".gitignore", pythonpath=True)
 
 
 log = utils.get_pylogger(__name__)
