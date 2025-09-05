@@ -232,8 +232,8 @@ class RL4COLitModule(LightningModule, metaclass=abc.ABCMeta):
         on_epoch = False if phase == "train" else True
         self.log_dict(
             metrics,
-            on_step=log_on_step,
-            on_epoch=on_epoch,
+            on_step=False,
+            on_epoch=True,
             prog_bar=True,
             sync_dist=True,
             add_dataloader_idx=False,  # we add manually above
